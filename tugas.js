@@ -14612,7 +14612,7 @@ var arr = []
 
 Object.keys(hasil).forEach(function(key) {
 
-  arr.push({id: hasil[key].id, tagihan: hasil[key].tagihan, rata: hasil[key].rata});
+  arr.push({id: hasil[key].id, tagihan: hasil[key].tagihan, jumlah: hasil[key].jumlah, rata: hasil[key].rata});
 
 });
 
